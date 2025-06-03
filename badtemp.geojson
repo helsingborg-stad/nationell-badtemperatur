@@ -14,6 +14,20 @@
         "batteryLevel": 53,
         "deviceType": "Badtemp"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.755095, 55.977858]
+      },
+      "properties": {
+        "name": "Badtemp_SPEX",
+        "temperature": 100.375,
+        "reportedAt": "2025-04-25T12:17:58.835Z",
+        "batteryLevel": 53,
+        "deviceType": "Badtemp"
+      }
     }
   ]
 }
