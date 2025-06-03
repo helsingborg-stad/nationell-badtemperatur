@@ -36,8 +36,6 @@ async def badtemp(body: LdModel | GeoModel, request: Request, api_key: str = Dep
     if api_key != secret_api_key:
         raise HTTPException(status_code=400, detail="X-API-Key header invalid")
 
-    print(api_key)
-
     content_type = request.headers.get("Content-Type")
     file_ext = "json"
     dir_name = "unknown"
