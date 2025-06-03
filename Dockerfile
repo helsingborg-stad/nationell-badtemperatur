@@ -27,4 +27,6 @@ USER appuser
 
 COPY . .
 
+EXPOSE 8000:8000
+
 CMD ["fastapi", "run", "--proxy-headers", "main.py"]
