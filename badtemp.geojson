@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.751095, 55.967858]
+      },
+      "properties": {
+        "name": "Badtemp_Rydeback_NY_MODELL2024",
+        "temperature": 2.375,
+        "reportedAt": "2025-04-25T12:17:58.835Z",
+        "batteryLevel": 53,
+        "deviceType": "Badtemp"
+      }
+    }
+  ]
+}
